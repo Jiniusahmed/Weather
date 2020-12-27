@@ -1,0 +1,464 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+#nav-bar{
+	background: url(home.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 924px;
+}
+.container{
+	width:1080px;
+	margin:auto;
+}
+
+.logo{
+	margin-left: -170px;
+    margin-top: -12px;
+    display: inline-block;
+    float: left;
+    margin-right: 269px;
+}
+
+
+.dropdown {
+    margin-left: 151px;
+    margin-top: 43px;
+}
+
+
+ul.nav li {
+    list-style-type: none;
+    float: left;
+    margin-left: 40px;
+    display: inline-block;
+    color:#d2d1d1;
+    transition: 0.5s;
+}
+
+.headerwrapper {
+    overflow: hidden;
+}
+
+.social-icone ul li {
+    list-style-type: none;
+    float: left;
+}
+
+.little-description {
+    margin-top: 271px;
+    width: 460px;
+    height: 250px;
+}
+
+
+.heading {
+    color: white;
+    width: 381px;
+    font-size: 31px;
+}
+
+.para1 {
+    color: #e0dbdb;
+    font-size: 20px;
+    padding-top: 28px;
+    width: 350px;
+}
+
+
+.btn1 {
+    padding-top: 30px;
+}
+
+.dnd {
+    padding: 11px 38px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background: red;
+    transition: 0.5s;
+}
+
+.ftr {
+    padding: 11px 38px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background: #4466C9;
+    transition: 0.5s;
+}
+
+.screen1 {
+    float: right;
+    margin-top: -410px;
+}
+
+.dnd:hover {
+    background: white;
+    color: #648CFF;
+    border: 0.5px solid black;
+    cursor: pointer;
+}
+
+.ftr:hover {
+    background: white;
+    color: red;
+    border: 0.5px solid black;
+    cursor: pointer;
+}
+
+.nav li:hover {
+    color: #648CFF;
+    padding: 2px 5px;
+    background: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.scrool {
+    margin-top: 288px;
+    margin-left: 464px;
+}
+
+.heading2 h2 {
+    margin-left: 401px;
+    padding-top: 116px;
+    text-transform: uppercase;
+    color: #648CFF;
+}
+
+.heading2 p {
+    margin-left: 471px;
+    color: #999999;
+    font-size: 18px;
+    padding-top: 9px;
+}
+
+
+.usability-icone {
+    float: left;
+    padding-right: 15px;
+}
+
+.usability-desc {
+   width: 286px;
+    margin-top: 18px;
+    margin-left: 12px;
+} 
+
+.usability-desc h3 {
+    padding-bottom: 13px;
+}
+
+.usability-desc p {
+    color: #888282;
+    padding-bottom: 143px;
+    width: 153px;
+}
+
+.usability {
+    float: left;
+    padding-left: 62px;
+    margin-top: 74px;
+
+}
+
+.fratures-wrapper {
+    overflow: hidden;
+}
+
+
+.heading3 h3 {
+    padding-left: 427px;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #6CA3FF;
+}
+
+.heading3 P {
+    text-align: center;
+    margin: auto;
+    color: #b5aeae;
+    padding-top: 8px;
+}
+
+.wid-img {
+    text-align: center;
+    margin-top: 60px;
+    padding-bottom: 114px;
+}
+
+.widgets-wrapper {
+    overflow: hidden;
+}
+
+.heading4 h3 {
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #6CA3FF;
+    padding-top: 8px;
+}
+
+
+.heading4 p {
+    text-align: center;
+    padding-top: 5px;
+    color: #9e9d9d;
+    padding-bottom: 5pc;
+}
+
+
+.screen-image {
+    float: left;
+}
+
+.desc {
+	padding-top: 246px;
+    padding-left: 0px;
+	float: right;
+	margin-right: 311px;
+}
+
+
+.little-desc {
+    width: 248px;
+}
+
+.little-desc h2 {
+    text-transform: uppercase;
+    color: #6CA3FF;
+}
+
+.little-desc p {
+    padding-top: 8px;
+    color: #a9a3a3;
+}
+
+
+.little-desc2 {
+    float: left;
+    width: 277px;
+}
+
+.desc2 {
+    width: 309px;
+    float: left;
+    padding-top: 173px;
+}
+
+.little-desc2 h2 {
+    color: #5CA3FF;
+    text-transform: uppercase;
+    padding-top: 6px;
+}
+
+.little-desc2 p {
+    padding-top: 5px;
+    color: #b7b3b3;
+    padding-bottom: 11px;
+}
+
+.screen-image2 {
+    padding-top: 241px;
+    float: right;
+}
+
+
+
+.little-desc3 {
+    float: right;
+    width: 277px;
+}
+
+.desc3 {
+    width: 309px;
+    float: right;
+    padding-top: 173px;
+}
+
+.little-desc3 h2 {
+    color: #5CA3FF;
+    text-transform: uppercase;
+    padding-top: 6px;
+}
+
+.little-desc3 p {
+    padding-top: 5px;
+    color: #b7b3b3;
+    padding-bottom: 11px;
+}
+
+.screen-image3 {
+    padding-top: 241px;
+    float: left;
+    padding-bottom: 80px;
+}
+
+.screensoot-wrapper {
+    overflow: hidden;
+}
+
+.peopole-wrapper {
+    overflow: hidden;
+}
+
+.heading5 h3 {
+    text-align: center;
+    color: #6CA3FF;
+    text-transform: uppercase;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.heading5 p {
+    text-align: center;
+    color: #9e9a9a;
+    padding-top: 10px;
+    padding-bottom: 73px;
+}
+
+.single-saying {
+    width: 410px;
+    float: left;
+    padding-left: 129px;
+    padding-bottom: 66px;
+}
+
+.single-saying h1 {
+    font-size: 50px;
+    color: #6A3AAF;
+}
+
+.single-saying p {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.all-saying span {
+    color: #807c7c;
+}
+
+.cotation2{
+	float:right;
+}
+
+#download-app{
+	background-image: url(last.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 375px;
+}
+.app-desc h1 {
+    color: white;
+    padding-top: 97px;
+    text-transform: uppercase;
+}
+
+.app-p p {
+    color: white;
+    width: 286px;
+    padding-top: 24px;
+    padding-bottom: 23px;
+}
+
+button.app-store {
+    padding: 10px 21px;
+    border-radius: 14px;
+    border: none;
+}
+
+button.app-store i {
+    color: #6CA3FF;
+    font-size: 19px;
+}
+
+
+
+button.app-store span {
+    font-size: 15px;
+    padding-left: 8px;
+}
+
+button.play-store {
+    padding: 10px 21px;
+    border-radius: 14px;
+    border: none;
+}
+
+button.play-store i {
+    color: #6CA3FF;
+    font-size: 19px;
+}
+
+
+
+button.play-store span {
+    font-size: 15px;
+    padding-left: 8px;
+}
+
+
+
+.app-btn button{
+	transition: 0.5s;
+}
+
+.app-btn button:hover {
+	color: white;
+	background: black;
+	cursor: pointer;
+	border: 1px solid white;
+}
+
+.footer-logo {
+    float: left;
+}
+
+#footer {
+    background: #353854;
+}
+
+.footerwrapper {
+	overflow: hidden;
+}
+
+.footer-nav li {
+    float: left;
+    list-style-type: none;
+    color: white;
+    padding-top: 68px;
+    padding-left: 68px;
+}
+
+.footer-icone li {
+    list-style-type: none;
+    color: white;
+    float: left;
+    padding-top: 68px;
+}
+
+.footer-icone i {
+	margin-left: 62px;
+}
+
+.footer-nav ul li:hover{
+	color: #4dc105;
+    cursor: pointer;
+}
+
+.footer-icone ul li i:hover{
+	color:#4dc105;
+	cursor: pointer;
+}
+
+.copyright-bottom {
+    padding-top: 24px;
+    color: #a9a8a8;
+    padding-left: 858px;
+    padding-bottom: 46px;
+}
